@@ -6,17 +6,18 @@ local set = vim.keymap.set
 set("n", "<leader><leader>", "m`o<ESC>``") -- add empty line under the current one (don't ask)
 set("n", "<leader>rw", vim.cmd.Ex) -- netrw just in case
 set("n", "<leader>re", "<C-r>") -- redo action
+set("i", "<C-d>", "<BS>") -- backspace
 
 -- window remaps
-set("n", "<leader>hs", ":sp<CR>")
+set("n", "<leader>sp", ":sp<CR>")
 set("n", "<leader>vs", ":vs<CR>")
-set("n", "<leader>nh", ":sp<space>")
-set("n", "<leader>nv", ":vs<space>")
+set("n", "<leader>sp<leader>", ":sp<space>")
+set("n", "<leader>vs<leader>", ":vs<space>")
 
 -- buffer remaps
 set("n", "<leader>e", ":e<space>")
-set("n", "<leader>a", ":bn<CR>")
-set("n", "<leader>b", ":bp<CR>")
+set("n", "<leader>n", ":bn<CR>")
+set("n", "<leader>p", ":bp<CR>")
 set("n", "<leader>d", ":bd<CR>")
 
 -- avoid "Emacs pinky" 
