@@ -11,7 +11,8 @@ return {
         mini_files.setup{
             mappings = {
                 go_in      = 'L',
-                go_in_plus = 'l'
+                go_in_plus = 'l',
+                synchronize = 's'
             }
         }
     end
