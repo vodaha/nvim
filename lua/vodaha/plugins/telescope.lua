@@ -10,11 +10,7 @@ return {
         vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
         vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
-	require('telescope').setup{
-	    defaults = {
-	      
-	    },
-    }
+        require('telescope').setup()
 
     end
 }
