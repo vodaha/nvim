@@ -7,6 +7,7 @@ set("n", "<leader><leader>", "m`o<ESC>``") -- add empty line under the current o
 set("n", "<leader>rw", vim.cmd.Ex) -- netrw just in case
 set("n", "<leader>re", "<C-r>") -- redo action
 set("i", "<C-d>", "<BS>") -- backspace
+set("i", "<C-e>", "<CR>") -- enter key
 
 -- window remaps
 set("n", "<leader>sp", ":sp<CR>")
@@ -18,7 +19,7 @@ set("n", "<leader>vs<leader>", ":vs<space>")
 set("n", "<leader>e", ":e<space>")
 set("n", "<leader>n", ":bn<CR>")
 set("n", "<leader>p", ":bp<CR>")
-set("n", "<leader>d", ":bd<CR>")
+set("n", "<leader>bd", ":bd<CR>")
 
 -- avoid "Emacs pinky" 
 set("n", "<leader>ws", "<C-w>s")
