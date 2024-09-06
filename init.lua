@@ -1,3 +1,3 @@
 require("vodaha.lazy")
-require("remap")
-require("settings")
+require("vodaha.remap")
+require("vodaha.settings")
